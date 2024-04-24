@@ -3,13 +3,47 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Dog Adoption Application</title>
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
+    <!-- the entire body must be written by student -->
+    <header>
+        <h1>Dog Adoption Appilcation</h1>
+    </header>
+
+    <main>
+        <section id="DAA_form">
+            <form action="" method="post">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" placeholder="name">
+
+                <label for="phone">Phone: </label>
+                <input type="text" name="phone" id="phone" placeholder="Phone Number">
+
+                <label for="address">Address: </label>
+                <input type="text" name="address" id="address" placeholder="Address">
+
+                <div class="checkbox-container">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">Have you ever lived with a Dog before?</label>
+                </div>
+
+                <select name="multiselect" id="multiSelect" multiple>
+                    <option value="Bulldog">Bulldog</option>
+                    <option value="German Shepherd">German Shepherd</option>
+                    <option value="Golden Retriever">Golden Retriever</option>
+                    <option value="Rottweiler">Rottweiler</option>
+                    <option value="Indian Spitz">Indian Spitz</option>
+                    <option value="Australian Cattle Dog">Australian Cattle Dog</option>
+                </select>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </section>
+    </main>
     <script type="text/javascript" src="./script.js">
-</script>
+    </script>
 
 </body>
 
